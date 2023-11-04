@@ -10,6 +10,6 @@ Steps to be followed to run it:
       bin\windows\kafka-server-start.bat config\server.properties
    3. Reading data from the topic.
       bin\windows\kafka-console-consumer.bat --topic location-update-topic --from-beginning --bootstrap-server localhost:9092
-   4. Here topic is "location-update-topic"
+   4. Here the topic is "location-update-topic"
 3. Set your postman to push data.
 4. Once pushed, you will be able to see the data being published to kafka topic and parallely consumed message will be visible at the terminal window.
